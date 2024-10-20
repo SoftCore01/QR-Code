@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.main-bg {
+  background-color: hsl(212, 45%, 89%);
+}
+.card-bg {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.font {
+    font-family: "Outfit", sans-serif;
+}
+
+.p-text {
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+}
+
+.bold-text {
+    color: hsl(218, 44%, 22%);
+}
+/* Slate 300: hsl(212, 45%, 89%)
+Slate 500: hsl(216, 15%, 48%)
+Slate 900: hsl(218, 44%, 22%) 
+white: hsl(0, 0%, 100%)*/
